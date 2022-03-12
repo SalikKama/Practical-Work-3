@@ -30,3 +30,11 @@ while ( b > 0)
     b = b / 10;
 }
 Console.WriteLine(S);
+
+// 4. Вычисление произведения чисел от 1 до N
+int P = 1;
+for ( int c = 1; c < N + 1; c++ )
+{
+    P = P * c;
+}
+Console.WriteLine("Произведение чисел от 1 до N: " + P);
